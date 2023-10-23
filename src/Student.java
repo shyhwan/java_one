@@ -8,4 +8,8 @@ public class Student {
         this.name = name;
         this.age = age;
     }
+
+    public String toString() {
+       return String.format("학생이름은 %s 나이는 %d입니다.", name, age); 
+    }
 }

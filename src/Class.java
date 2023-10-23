@@ -8,4 +8,8 @@ public class Class {
         this.className = className;
         this.teacher = teacher;
     }
+
+    public String toString() {
+       return String.format("수업은 %s 선생님은 %s입니다.", className, teacher); 
+    }    
 }
