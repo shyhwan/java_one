@@ -34,5 +34,9 @@ public class App {
             System.out.println("----------------\n" + "이름 : " + user.getName() + "\t나이 : " + user.getAge());
         }
         System.out.println("----------------");
+
+        Class cl = new Class();
+        Student st = new Student();
+        System.out.println("Class :: " + cl +  " Student :: " + st );
     }
 }
