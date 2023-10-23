@@ -6,8 +6,12 @@ public class User {
 
     }
 
-    public User(String name, int age) {
+    public User(String name) {
         this.name = name;
+    }
+
+    public User(String name, int age) {
+        this(name);
         this.age = age;
     }
 

@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -27,12 +26,13 @@ public class App {
             // users.add(user)
             users.add(new User(name, age));   
         }
-            System.out.println("사용자는 " + users.size() + "명 입니다.");
-            System.out.println(users);
+           
+        System.out.println("사용자는 " + users.size() + "명 입니다.");
+        System.out.println(users);
 
-            for(User user: users) {
-                System.out.println("----------------\n" + "이름 : " + user.getName() + "\t나이 : " + user.getAge());
-            }
-            System.out.println("----------------");
+        for(User user: users) {
+            System.out.println("----------------\n" + "이름 : " + user.getName() + "\t나이 : " + user.getAge());
         }
+        System.out.println("----------------");
+    }
 }
