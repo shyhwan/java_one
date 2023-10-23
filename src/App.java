@@ -9,7 +9,6 @@ public class App {
         Scanner sc = new Scanner(System.in);
         ArrayList<User> users = new ArrayList<User>();
         for(int i = 0; i < 3; i++) {
-
             User user = new User();
             
             String name = "";
@@ -18,14 +17,15 @@ public class App {
             System.out.println("이름을 입력해 주세요. ");
             System.out.print("> ");
             name = sc.nextLine();
-            user.setName(name);
+            // user.setName(name);
             
             System.out.println("나이를 입력해 주세요. ");
             System.out.print("> ");
             age = sc.nextInt();sc.nextLine();
-            user.setAge(age);
+            // user.setAge(age);
             
-            users.add(user);   
+            // users.add(user)
+            users.add(new User(name, age));   
         }
             System.out.println("사용자는 " + users.size() + "명 입니다.");
             System.out.println(users);

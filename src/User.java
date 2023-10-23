@@ -2,6 +2,15 @@ public class User {
     private String name;
     private int age;
 
+    public User() {
+
+    }
+
+    public User(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -10,17 +19,17 @@ public class User {
         this.age = age;
     }
 
-    public User getUser() {
-        User user = new User();
-        return user;
-    }
-
     public String getName() {
         return name;
     }
 
     public int getAge() {
         return age;
+    }
+
+    public static int test() {
+        int i = 1;
+        return i;
     }
 
     public String toString() {
