@@ -1,3 +1,4 @@
+package Test;
 public class Class {
     private String className;
     private String teacher;
